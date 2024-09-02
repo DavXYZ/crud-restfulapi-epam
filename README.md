@@ -32,7 +32,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the Repository**
 
-   git clone https://github.com/DavXYZ/crud-restfullapi-epam
+   git clone https://github.com/DavXYZ/crud-restfulapi-epam
    cd crud-restfullapi-epam
 
 2. **Install Dependencies**
