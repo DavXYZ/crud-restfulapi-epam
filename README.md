@@ -73,12 +73,18 @@ Start the server:
 
 * Get All Products by Category
     GET /api/products?category={category}
+  
+* Get By Id
+    GET /api/products/{id}
 
 * Update Product Street
     PUT /api/products/{id}/street
 
 * Posting validated data (stock.available and price)
     POST /api/products
+  
+* Soft Delete
+    DELETE /api/products/${id}
 
 ## Middlewares
 1. Request Logger
@@ -108,7 +114,7 @@ Validation Rules:
 
 
 ## Acknowledgements
-Express.js: A web framework for building APIs.
-TypeScript: A superset of JavaScript that adds static typing.
-fs-extra: A module that extends the built-in fs module with additional features.
-chalk: A library for styling terminal strings.
+* Express.js: A web framework for building APIs.
+* TypeScript: A superset of JavaScript that adds static typing.
+* fs-extra: A module that extends the built-in fs module with additional features.
+* chalk: A library for styling terminal strings.
