@@ -66,8 +66,8 @@ export default class ProductService {
         }
 
         products.push(newProduct);
-        return newProduct;
         await this.writeProducts(products);
+        return newProduct;
     } catch (error) {
         if (error instanceof Error) {
             console.error('Error adding product:', error.message);
