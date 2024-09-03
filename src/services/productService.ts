@@ -4,6 +4,7 @@ import ProductModel from '../models/productModel';
 
 export default class ProductService {
   private static productsFilePath = path.join(__dirname, '../products.json');
+  
   private static deletedProductsFilePath = path.join(__dirname, '../delete.json');
 
   private static async readProducts(): Promise<ProductModel[]> {

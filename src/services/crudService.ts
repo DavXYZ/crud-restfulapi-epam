@@ -30,7 +30,7 @@ export default class CrudService {
         const nonDeletedProducts = products.filter(product => !product.deleted);
 
         if (nonDeletedProducts.length === 0) {
-            return { message: 'The database is empty' };
+            return { message: 'The database is empty.' };
         }
         return nonDeletedProducts;
     } catch (error) {

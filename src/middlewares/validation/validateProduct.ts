@@ -8,7 +8,7 @@ export function validateProductInput(req: Request, res: Response, next: NextFunc
     return; 
   }  
   if (typeof price !== 'number' || price <= 0) {
-    res.status(400).json({ message: "price must be a positive number." });
+    res.status(400).json({ message: "price must be a positive number. " });
     return; 
   }
   next();

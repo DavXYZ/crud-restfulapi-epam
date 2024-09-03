@@ -10,7 +10,7 @@ app.use('/api/crud', crudRoutes);
 app.use('/api/products', productRoutes);
 
 app.use((req: express.Request, res: express.Response) => {
-  res.status(404).json({ message: 'Resource not found' });
+  res.status(404).json({ message: 'Resource not found.' });
 });
 
 app.listen(PORT, () => {

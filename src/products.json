@@ -12,10 +12,7 @@
         "location": "Warehouse A"
       },
       "tags": [
-        "wireless",
-        "mouse",
-        "electronics",
-        "ergonomic"
+        "wireless","mouse","electronics","ergonomic"
       ],
       "rating": 4.5,
       "deleted": false

@@ -19,7 +19,7 @@ export default class ProductController {
         );
       }
       if(products.length === 0){
-        res.status(404).json({ message: `No products found for category '${category}'` });
+        res.status(404).json({ message: `No products found for category: '${category}'` });
         return;
       }
       const productsWithLinks = products.map(product => ({

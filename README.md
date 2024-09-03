@@ -7,7 +7,6 @@ This project is a RESTful API built with Node.js, Express.js, and TypeScript. It
 ## Project Structure
 
 The project is organized as follows:
-
 - `src/`
   - `controllers/`
     - `crudController.ts`: Contains CRUD operations for products.

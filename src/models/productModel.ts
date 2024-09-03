@@ -1,11 +1,9 @@
 interface Address {
   street: string;
 }
-
 interface Manufacturer {
   address: Address;
 }
-
 interface Stock {
   available: number;
   reserved: number;

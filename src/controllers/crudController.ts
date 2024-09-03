@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express';
+import { Request, Response } from 'express';
 import CrudService from '../services/crudService';
 import ProductModel from '../models/productModel';
 
