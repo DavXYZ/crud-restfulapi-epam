@@ -11,7 +11,12 @@
         "reserved": 10,
         "location": "Warehouse A"
       },
-      "tags": ["wireless", "mouse", "electronics", "ergonomic"],
+      "tags": [
+        "wireless",
+        "mouse",
+        "electronics",
+        "ergonomic"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -26,7 +31,12 @@
         "reserved": 20,
         "location": "Warehouse B"
       },
-      "tags": ["keyboard", "gaming", "electronics", "mechanical"],
+      "tags": [
+        "keyboard",
+        "gaming",
+        "electronics",
+        "mechanical"
+      ],
       "rating": 4.2,
       "deleted": false
     },
@@ -41,7 +51,12 @@
         "reserved": 5,
         "location": "Warehouse C"
       },
-      "tags": ["smartphone", "mobile", "5G", "electronics"],
+      "tags": [
+        "smartphone",
+        "mobile",
+        "5G",
+        "electronics"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -56,7 +71,12 @@
         "reserved": 2,
         "location": "Warehouse D"
       },
-      "tags": ["laptop", "computer", "electronics", "portable"],
+      "tags": [
+        "laptop",
+        "computer",
+        "electronics",
+        "portable"
+      ],
       "rating": 4.8,
       "deleted": false
     },
@@ -71,7 +91,12 @@
         "reserved": 15,
         "location": "Warehouse E"
       },
-      "tags": ["bluetooth", "speaker", "electronics", "portable"],
+      "tags": [
+        "bluetooth",
+        "speaker",
+        "electronics",
+        "portable"
+      ],
       "rating": 4.3,
       "deleted": false
     },
@@ -86,7 +111,12 @@
         "reserved": 5,
         "location": "Warehouse F"
       },
-      "tags": ["monitor", "4K", "electronics", "HDR"],
+      "tags": [
+        "monitor",
+        "4K",
+        "electronics",
+        "HDR"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -101,7 +131,12 @@
         "reserved": 20,
         "location": "Warehouse G"
       },
-      "tags": ["hard drive", "storage", "electronics", "USB 3.0"],
+      "tags": [
+        "hard drive",
+        "storage",
+        "electronics",
+        "USB 3.0"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -116,7 +151,12 @@
         "reserved": 10,
         "location": "Warehouse H"
       },
-      "tags": ["smartwatch", "wearable", "electronics", "fitness"],
+      "tags": [
+        "smartwatch",
+        "wearable",
+        "electronics",
+        "fitness"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -131,7 +171,12 @@
         "reserved": 5,
         "location": "Warehouse I"
       },
-      "tags": ["headphones", "noise-canceling", "electronics", "bluetooth"],
+      "tags": [
+        "headphones",
+        "noise-canceling",
+        "electronics",
+        "bluetooth"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -146,7 +191,12 @@
         "reserved": 3,
         "location": "Warehouse J"
       },
-      "tags": ["TV", "smart", "electronics", "4K"],
+      "tags": [
+        "TV",
+        "smart",
+        "electronics",
+        "4K"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -161,7 +211,12 @@
         "reserved": 8,
         "location": "Warehouse K"
       },
-      "tags": ["tablet", "touchscreen", "electronics", "stylus"],
+      "tags": [
+        "tablet",
+        "touchscreen",
+        "electronics",
+        "stylus"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -176,7 +231,12 @@
         "reserved": 10,
         "location": "Warehouse L"
       },
-      "tags": ["fitness", "tracker", "electronics", "GPS"],
+      "tags": [
+        "fitness",
+        "tracker",
+        "electronics",
+        "GPS"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -191,7 +251,12 @@
         "reserved": 5,
         "location": "Warehouse M"
       },
-      "tags": ["camera", "action", "electronics", "waterproof"],
+      "tags": [
+        "camera",
+        "action",
+        "electronics",
+        "waterproof"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -206,7 +271,12 @@
         "reserved": 2,
         "location": "Warehouse N"
       },
-      "tags": ["gaming", "console", "electronics", "1TB"],
+      "tags": [
+        "gaming",
+        "console",
+        "electronics",
+        "1TB"
+      ],
       "rating": 4.8,
       "deleted": false
     },
@@ -221,7 +291,12 @@
         "reserved": 15,
         "location": "Warehouse O"
       },
-      "tags": ["wireless", "charger", "electronics", "fast charging"],
+      "tags": [
+        "wireless",
+        "charger",
+        "electronics",
+        "fast charging"
+      ],
       "rating": 4.3,
       "deleted": false
     },
@@ -236,7 +311,12 @@
         "reserved": 20,
         "location": "Warehouse P"
       },
-      "tags": ["toothbrush", "electric", "health", "personal care"],
+      "tags": [
+        "toothbrush",
+        "electric",
+        "health",
+        "personal care"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -251,7 +331,12 @@
         "reserved": 8,
         "location": "Warehouse Q"
       },
-      "tags": ["air purifier", "home", "appliances", "HEPA"],
+      "tags": [
+        "air purifier",
+        "home",
+        "appliances",
+        "HEPA"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -266,7 +351,12 @@
         "reserved": 5,
         "location": "Warehouse R"
       },
-      "tags": ["vacuum", "robot", "home", "appliances"],
+      "tags": [
+        "vacuum",
+        "robot",
+        "home",
+        "appliances"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -281,7 +371,12 @@
         "reserved": 10,
         "location": "Warehouse S"
       },
-      "tags": ["coffee maker", "home", "appliances", "grinder"],
+      "tags": [
+        "coffee maker",
+        "home",
+        "appliances",
+        "grinder"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -296,7 +391,12 @@
         "reserved": 10,
         "location": "Warehouse T"
       },
-      "tags": ["air fryer", "home", "appliances", "compact"],
+      "tags": [
+        "air fryer",
+        "home",
+        "appliances",
+        "compact"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -311,7 +411,12 @@
         "reserved": 15,
         "location": "Warehouse U"
       },
-      "tags": ["light bulbs", "smart", "home", "automation"],
+      "tags": [
+        "light bulbs",
+        "smart",
+        "home",
+        "automation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -326,7 +431,12 @@
         "reserved": 5,
         "location": "Warehouse V"
       },
-      "tags": ["thermostat", "smart", "home", "automation"],
+      "tags": [
+        "thermostat",
+        "smart",
+        "home",
+        "automation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -341,7 +451,12 @@
         "reserved": 8,
         "location": "Warehouse W"
       },
-      "tags": ["doorbell", "video", "home", "automation"],
+      "tags": [
+        "doorbell",
+        "video",
+        "home",
+        "automation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -356,7 +471,12 @@
         "reserved": 5,
         "location": "Warehouse X"
       },
-      "tags": ["lock", "smart", "home", "automation"],
+      "tags": [
+        "lock",
+        "smart",
+        "home",
+        "automation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -371,7 +491,12 @@
         "reserved": 3,
         "location": "Warehouse Y"
       },
-      "tags": ["security", "camera", "home", "automation"],
+      "tags": [
+        "security",
+        "camera",
+        "home",
+        "automation"
+      ],
       "rating": 4.8,
       "deleted": false
     },
@@ -386,7 +511,12 @@
         "reserved": 15,
         "location": "Warehouse Z"
       },
-      "tags": ["kettle", "electric", "home", "appliances"],
+      "tags": [
+        "kettle",
+        "electric",
+        "home",
+        "appliances"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -401,7 +531,12 @@
         "reserved": 10,
         "location": "Warehouse AA"
       },
-      "tags": ["blender", "kitchen", "home", "appliances"],
+      "tags": [
+        "blender",
+        "kitchen",
+        "home",
+        "appliances"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -416,7 +551,12 @@
         "reserved": 20,
         "location": "Warehouse BB"
       },
-      "tags": ["shaver", "electric", "health", "personal care"],
+      "tags": [
+        "shaver",
+        "electric",
+        "health",
+        "personal care"
+      ],
       "rating": 4.3,
       "deleted": false
     },
@@ -431,7 +571,12 @@
         "reserved": 10,
         "location": "Warehouse CC"
       },
-      "tags": ["hair dryer", "professional", "health", "personal care"],
+      "tags": [
+        "hair dryer",
+        "professional",
+        "health",
+        "personal care"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -446,7 +591,12 @@
         "reserved": 15,
         "location": "Warehouse DD"
       },
-      "tags": ["razor", "electric", "health", "personal care"],
+      "tags": [
+        "razor",
+        "electric",
+        "health",
+        "personal care"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -461,7 +611,12 @@
         "reserved": 20,
         "location": "Warehouse EE"
       },
-      "tags": ["thermometer", "digital", "health", "personal care"],
+      "tags": [
+        "thermometer",
+        "digital",
+        "health",
+        "personal care"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -476,7 +631,12 @@
         "reserved": 15,
         "location": "Warehouse FF"
       },
-      "tags": ["blood pressure", "monitor", "health", "personal care"],
+      "tags": [
+        "blood pressure",
+        "monitor",
+        "health",
+        "personal care"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -491,7 +651,12 @@
         "reserved": 5,
         "location": "Warehouse GG"
       },
-      "tags": ["massage gun", "relaxation", "health", "personal care"],
+      "tags": [
+        "massage gun",
+        "relaxation",
+        "health",
+        "personal care"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -506,7 +671,12 @@
         "reserved": 15,
         "location": "Warehouse HH"
       },
-      "tags": ["scale", "smart", "health", "personal care"],
+      "tags": [
+        "scale",
+        "smart",
+        "health",
+        "personal care"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -521,7 +691,12 @@
         "reserved": 8,
         "location": "Warehouse II"
       },
-      "tags": ["sleep tracker", "wearable", "health", "personal care"],
+      "tags": [
+        "sleep tracker",
+        "wearable",
+        "health",
+        "personal care"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -536,7 +711,12 @@
         "reserved": 30,
         "location": "Warehouse JJ"
       },
-      "tags": ["toothbrush heads", "replacement", "health", "personal care"],
+      "tags": [
+        "toothbrush heads",
+        "replacement",
+        "health",
+        "personal care"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -551,7 +731,12 @@
         "reserved": 50,
         "location": "Warehouse KK"
       },
-      "tags": ["multivitamins", "supplements", "health", "personal care"],
+      "tags": [
+        "multivitamins",
+        "supplements",
+        "health",
+        "personal care"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -566,7 +751,12 @@
         "reserved": 25,
         "location": "Warehouse LL"
       },
-      "tags": ["protein powder", "supplements", "health", "personal care"],
+      "tags": [
+        "protein powder",
+        "supplements",
+        "health",
+        "personal care"
+      ],
       "rating": 4.8,
       "deleted": false
     },
@@ -581,7 +771,12 @@
         "reserved": 20,
         "location": "Warehouse MM"
       },
-      "tags": ["yoga mat", "fitness", "health", "personal care"],
+      "tags": [
+        "yoga mat",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -596,7 +791,12 @@
         "reserved": 25,
         "location": "Warehouse NN"
       },
-      "tags": ["resistance bands", "fitness", "health", "personal care"],
+      "tags": [
+        "resistance bands",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -611,7 +811,12 @@
         "reserved": 5,
         "location": "Warehouse OO"
       },
-      "tags": ["treadmill", "fitness", "health", "personal care"],
+      "tags": [
+        "treadmill",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -626,7 +831,12 @@
         "reserved": 3,
         "location": "Warehouse PP"
       },
-      "tags": ["elliptical machine", "fitness", "health", "personal care"],
+      "tags": [
+        "elliptical machine",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -641,7 +851,12 @@
         "reserved": 10,
         "location": "Warehouse QQ"
       },
-      "tags": ["dumbbells", "fitness", "health", "personal care"],
+      "tags": [
+        "dumbbells",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -656,7 +871,12 @@
         "reserved": 5,
         "location": "Warehouse RR"
       },
-      "tags": ["stationary bike", "fitness", "health", "personal care"],
+      "tags": [
+        "stationary bike",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -671,7 +891,12 @@
         "reserved": 2,
         "location": "Warehouse SS"
       },
-      "tags": ["rowing machine", "fitness", "health", "personal care"],
+      "tags": [
+        "rowing machine",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -686,7 +911,12 @@
         "reserved": 15,
         "location": "Warehouse TT"
       },
-      "tags": ["kettlebell", "fitness", "health", "personal care"],
+      "tags": [
+        "kettlebell",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -701,7 +931,12 @@
         "reserved": 20,
         "location": "Warehouse UU"
       },
-      "tags": ["foam roller", "fitness", "health", "personal care"],
+      "tags": [
+        "foam roller",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -716,7 +951,12 @@
         "reserved": 30,
         "location": "Warehouse VV"
       },
-      "tags": ["jump rope", "fitness", "health", "personal care"],
+      "tags": [
+        "jump rope",
+        "fitness",
+        "health",
+        "personal care"
+      ],
       "rating": 4.3,
       "deleted": false
     },
@@ -731,7 +971,12 @@
         "reserved": 5,
         "location": "Warehouse WW"
       },
-      "tags": ["punching bag", "sports", "fitness", "outdoors"],
+      "tags": [
+        "punching bag",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -746,7 +991,12 @@
         "reserved": 25,
         "location": "Warehouse XX"
       },
-      "tags": ["soccer ball", "sports", "fitness", "outdoors"],
+      "tags": [
+        "soccer ball",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -761,7 +1011,12 @@
         "reserved": 20,
         "location": "Warehouse YY"
       },
-      "tags": ["basketball", "sports", "fitness", "outdoors"],
+      "tags": [
+        "basketball",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -776,7 +1031,12 @@
         "reserved": 10,
         "location": "Warehouse ZZ"
       },
-      "tags": ["tennis racket", "sports", "fitness", "outdoors"],
+      "tags": [
+        "tennis racket",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -791,7 +1051,12 @@
         "reserved": 5,
         "location": "Warehouse AAA"
       },
-      "tags": ["golf clubs", "sports", "fitness", "outdoors"],
+      "tags": [
+        "golf clubs",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -806,7 +1071,12 @@
         "reserved": 8,
         "location": "Warehouse BBB"
       },
-      "tags": ["camping tent", "outdoors", "sports", "recreation"],
+      "tags": [
+        "camping tent",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -821,7 +1091,12 @@
         "reserved": 15,
         "location": "Warehouse CCC"
       },
-      "tags": ["sleeping bag", "outdoors", "sports", "recreation"],
+      "tags": [
+        "sleeping bag",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -836,7 +1111,12 @@
         "reserved": 10,
         "location": "Warehouse DDD"
       },
-      "tags": ["hiking backpack", "outdoors", "sports", "recreation"],
+      "tags": [
+        "hiking backpack",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -851,7 +1131,12 @@
         "reserved": 20,
         "location": "Warehouse EEE"
       },
-      "tags": ["yoga ball", "fitness", "sports", "recreation"],
+      "tags": [
+        "yoga ball",
+        "fitness",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -866,7 +1151,12 @@
         "reserved": 3,
         "location": "Warehouse FFF"
       },
-      "tags": ["kayak", "outdoors", "sports", "recreation"],
+      "tags": [
+        "kayak",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -881,7 +1171,12 @@
         "reserved": 10,
         "location": "Warehouse GGG"
       },
-      "tags": ["fishing rod", "outdoors", "sports", "recreation"],
+      "tags": [
+        "fishing rod",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -896,7 +1191,12 @@
         "reserved": 15,
         "location": "Warehouse HHH"
       },
-      "tags": ["ski goggles", "outdoors", "sports", "recreation"],
+      "tags": [
+        "ski goggles",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -911,7 +1211,12 @@
         "reserved": 5,
         "location": "Warehouse III"
       },
-      "tags": ["snowboard", "outdoors", "sports", "recreation"],
+      "tags": [
+        "snowboard",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -926,7 +1231,12 @@
         "reserved": 20,
         "location": "Warehouse JJJ"
       },
-      "tags": ["baseball glove", "sports", "fitness", "outdoors"],
+      "tags": [
+        "baseball glove",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -941,7 +1251,12 @@
         "reserved": 20,
         "location": "Warehouse KKK"
       },
-      "tags": ["football", "sports", "fitness", "outdoors"],
+      "tags": [
+        "football",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -956,7 +1271,12 @@
         "reserved": 10,
         "location": "Warehouse LLL"
       },
-      "tags": ["boxing gloves", "sports", "fitness", "outdoors"],
+      "tags": [
+        "boxing gloves",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -971,7 +1291,12 @@
         "reserved": 25,
         "location": "Warehouse MMM"
       },
-      "tags": ["volleyball", "sports", "fitness", "outdoors"],
+      "tags": [
+        "volleyball",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -986,7 +1311,12 @@
         "reserved": 30,
         "location": "Warehouse NNN"
       },
-      "tags": ["swimming goggles", "sports", "fitness", "outdoors"],
+      "tags": [
+        "swimming goggles",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1001,7 +1331,12 @@
         "reserved": 15,
         "location": "Warehouse OOO"
       },
-      "tags": ["diving mask", "outdoors", "sports", "recreation"],
+      "tags": [
+        "diving mask",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1016,7 +1351,12 @@
         "reserved": 20,
         "location": "Warehouse PPP"
       },
-      "tags": ["snorkeling fins", "outdoors", "sports", "recreation"],
+      "tags": [
+        "snorkeling fins",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1031,7 +1371,12 @@
         "reserved": 8,
         "location": "Warehouse QQQ"
       },
-      "tags": ["climbing rope", "outdoors", "sports", "recreation"],
+      "tags": [
+        "climbing rope",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -1046,7 +1391,12 @@
         "reserved": 12,
         "location": "Warehouse RRR"
       },
-      "tags": ["hiking boots", "outdoors", "sports", "recreation"],
+      "tags": [
+        "hiking boots",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1061,7 +1411,12 @@
         "reserved": 20,
         "location": "Warehouse SSS"
       },
-      "tags": ["bicycle helmet", "outdoors", "sports", "recreation"],
+      "tags": [
+        "bicycle helmet",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1076,7 +1431,12 @@
         "reserved": 5,
         "location": "Warehouse TTT"
       },
-      "tags": ["mountain bike", "outdoors", "sports", "recreation"],
+      "tags": [
+        "mountain bike",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -1091,7 +1451,12 @@
         "reserved": 3,
         "location": "Warehouse UUU"
       },
-      "tags": ["surfboard", "outdoors", "sports", "recreation"],
+      "tags": [
+        "surfboard",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1106,7 +1471,12 @@
         "reserved": 10,
         "location": "Warehouse VVV"
       },
-      "tags": ["skateboard", "outdoors", "sports", "recreation"],
+      "tags": [
+        "skateboard",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1121,7 +1491,12 @@
         "reserved": 8,
         "location": "Warehouse WWW"
       },
-      "tags": ["rollerblades", "outdoors", "sports", "recreation"],
+      "tags": [
+        "rollerblades",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -1136,7 +1511,12 @@
         "reserved": 5,
         "location": "Warehouse XXX"
       },
-      "tags": ["ping pong table", "outdoors", "sports", "recreation"],
+      "tags": [
+        "ping pong table",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1151,7 +1531,12 @@
         "reserved": 5,
         "location": "Warehouse YYY"
       },
-      "tags": ["trampoline", "outdoors", "sports", "recreation"],
+      "tags": [
+        "trampoline",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -1166,7 +1551,12 @@
         "reserved": 3,
         "location": "Warehouse ZZZ"
       },
-      "tags": ["paddleboard", "outdoors", "sports", "recreation"],
+      "tags": [
+        "paddleboard",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1181,7 +1571,12 @@
         "reserved": 8,
         "location": "Warehouse AAAA"
       },
-      "tags": ["climbing shoes", "outdoors", "sports", "recreation"],
+      "tags": [
+        "climbing shoes",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1196,7 +1591,12 @@
         "reserved": 15,
         "location": "Warehouse BBBB"
       },
-      "tags": ["camping stove", "outdoors", "sports", "recreation"],
+      "tags": [
+        "camping stove",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1211,7 +1611,12 @@
         "reserved": 2,
         "location": "Warehouse CCCC"
       },
-      "tags": ["fishing kayak", "outdoors", "sports", "recreation"],
+      "tags": [
+        "fishing kayak",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -1226,7 +1631,12 @@
         "reserved": 6,
         "location": "Warehouse DDDD"
       },
-      "tags": ["ski boots", "outdoors", "sports", "recreation"],
+      "tags": [
+        "ski boots",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1241,7 +1651,12 @@
         "reserved": 8,
         "location": "Warehouse EEEE"
       },
-      "tags": ["snowshoes", "outdoors", "sports", "recreation"],
+      "tags": [
+        "snowshoes",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -1256,7 +1671,12 @@
         "reserved": 15,
         "location": "Warehouse FFFF"
       },
-      "tags": ["ski poles", "outdoors", "sports", "recreation"],
+      "tags": [
+        "ski poles",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1271,7 +1691,12 @@
         "reserved": 20,
         "location": "Warehouse GGGG"
       },
-      "tags": ["snorkel set", "outdoors", "sports", "recreation"],
+      "tags": [
+        "snorkel set",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1286,7 +1711,12 @@
         "reserved": 10,
         "location": "Warehouse HHHH"
       },
-      "tags": ["hiking poles", "outdoors", "sports", "recreation"],
+      "tags": [
+        "hiking poles",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1301,7 +1731,12 @@
         "reserved": 15,
         "location": "Warehouse IIII"
       },
-      "tags": ["camping hammock", "outdoors", "sports", "recreation"],
+      "tags": [
+        "camping hammock",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1316,7 +1751,12 @@
         "reserved": 10,
         "location": "Warehouse JJJJ"
       },
-      "tags": ["climbing harness", "outdoors", "sports", "recreation"],
+      "tags": [
+        "climbing harness",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -1331,7 +1771,12 @@
         "reserved": 6,
         "location": "Warehouse KKKK"
       },
-      "tags": ["surfing wetsuit", "outdoors", "sports", "recreation"],
+      "tags": [
+        "surfing wetsuit",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1346,7 +1791,12 @@
         "reserved": 15,
         "location": "Warehouse LLLL"
       },
-      "tags": ["fishing vest", "outdoors", "sports", "recreation"],
+      "tags": [
+        "fishing vest",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1361,7 +1811,12 @@
         "reserved": 3,
         "location": "Warehouse MMMM"
       },
-      "tags": ["mountain climbing", "outdoors", "sports", "recreation"],
+      "tags": [
+        "mountain climbing",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.8,
       "deleted": false
     },
@@ -1376,7 +1831,12 @@
         "reserved": 12,
         "location": "Warehouse NNNN"
       },
-      "tags": ["training shoes", "fitness", "sports", "recreation"],
+      "tags": [
+        "training shoes",
+        "fitness",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1391,7 +1851,12 @@
         "reserved": 15,
         "location": "Warehouse OOOO"
       },
-      "tags": ["running shoes", "fitness", "sports", "recreation"],
+      "tags": [
+        "running shoes",
+        "fitness",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1406,7 +1871,12 @@
         "reserved": 10,
         "location": "Warehouse PPPP"
       },
-      "tags": ["waterproof jacket", "outdoors", "sports", "recreation"],
+      "tags": [
+        "waterproof jacket",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -1421,7 +1891,12 @@
         "reserved": 20,
         "location": "Warehouse QQQQ"
       },
-      "tags": ["cycling shorts", "fitness", "sports", "recreation"],
+      "tags": [
+        "cycling shorts",
+        "fitness",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1436,7 +1911,12 @@
         "reserved": 25,
         "location": "Warehouse RRRR"
       },
-      "tags": ["hiking socks", "outdoors", "sports", "recreation"],
+      "tags": [
+        "hiking socks",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.7,
       "deleted": false
     },
@@ -1451,7 +1931,12 @@
         "reserved": 30,
         "location": "Warehouse SSSS"
       },
-      "tags": ["camping lantern", "outdoors", "sports", "recreation"],
+      "tags": [
+        "camping lantern",
+        "outdoors",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     },
@@ -1466,7 +1951,12 @@
         "reserved": 25,
         "location": "Warehouse TTTT"
       },
-      "tags": ["running belt", "fitness", "sports", "recreation"],
+      "tags": [
+        "running belt",
+        "fitness",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.4,
       "deleted": false
     },
@@ -1481,7 +1971,12 @@
         "reserved": 30,
         "location": "Warehouse UUUU"
       },
-      "tags": ["golf balls", "sports", "fitness", "outdoors"],
+      "tags": [
+        "golf balls",
+        "sports",
+        "fitness",
+        "outdoors"
+      ],
       "rating": 4.6,
       "deleted": false
     },
@@ -1496,7 +1991,12 @@
         "reserved": 20,
         "location": "Warehouse VVVV"
       },
-      "tags": ["yoga block", "fitness", "sports", "recreation"],
+      "tags": [
+        "yoga block",
+        "fitness",
+        "sports",
+        "recreation"
+      ],
       "rating": 4.5,
       "deleted": false
     }

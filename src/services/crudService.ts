@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import ProductModel from '../models/productModel';
 
-export default class ProductService {
+export default class CrudService {
   private static productsFilePath = path.join(__dirname, '../products.json');
 
   private static async readProducts(): Promise<ProductModel[]> {

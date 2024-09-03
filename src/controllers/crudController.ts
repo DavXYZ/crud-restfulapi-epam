@@ -1,11 +1,11 @@
 import express, { Request, Response } from 'express';
-import ProductService from '../services/crudService';
+import CrudService from '../services/crudService';
 import ProductModel from '../models/productModel';
 
-export default class ProductController{
+export default class CrudController{
   static async getAllProducts(req: Request, res: Response): Promise<void> {
     try {
-      const data = await ProductService.getAllProducts();
+      const data = await CrudService.getAllProducts();
       const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}`;
       const advancedUrl = `${req.protocol}://${req.get('host')}/api/products`;
 
@@ -61,7 +61,7 @@ export default class ProductController{
             manufacturer: newData.manufacturer || { address: { street: '' } }
         };
 
-        const createdProduct = await ProductService.addProduct(product);
+        const createdProduct = await CrudService.addProduct(product);
 
         const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}`;
         const advancedUrl = `${req.protocol}://${req.get('host')}/api/products`;
@@ -88,7 +88,7 @@ export default class ProductController{
     try {
       const id: string = req.params.id;
       const updatedData: Partial<ProductModel> = req.body;
-      const updatedProduct = await ProductService.updateProduct(id, updatedData);
+      const updatedProduct = await CrudService.updateProduct(id, updatedData);
 
       const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}`;
       const advancedUrl = `${req.protocol}://${req.get('host')}/api/products`;
@@ -117,7 +117,7 @@ export default class ProductController{
   static async deleteProduct(req: Request, res: Response): Promise<void> {
     try {
       const id: string = req.params.id;
-      const deletedProduct = await ProductService.deleteProduct(id);
+      const deletedProduct = await CrudService.deleteProduct(id);
 
       const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}`;
 
