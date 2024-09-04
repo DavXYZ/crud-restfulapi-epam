@@ -3,40 +3,73 @@ import ProductService from '../services/productService';
 import ProductModel from '../models/productModel';
 
 export default class ProductController {
-  static async getAllProductsByCategory(req: Request, res: Response): Promise<void> {
+  static async getProducts(req: Request, res: Response): Promise<void> {
     try {
       const category = req.query.category?.toString().toLowerCase().trim().replace(/\s+/g, "");
-      if(!category || category === ""){
-        res.status(404).json({ message: `Category query parameter is required.` });
-        return;
-      }
-      let products: ProductModel[] = await ProductService.getAllProducts();
-      const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}`;
-      const crudUrl = `${req.protocol}://${req.get('host')}/api/crud`;
+  
+      let products: ProductModel[] = await ProductService.getProducts();
       if (category) {
         products = products.filter(product => 
           product.category.toLowerCase().trim().replace(/\s+/g, "") === category
         );
       }
-      if(products.length === 0){
-        res.status(404).json({ message: `No products found for category '${category}'` });
+  
+      if (products.length === 0) {
+        res.status(404).json({ message: category 
+          ? `No products found for category '${category}'` 
+          : `No products found.` 
+        });
         return;
       }
+  
       const productsWithLinks = products.map(product => ({
-        ...product,
-        _links: {
-          update: { href: `${crudUrl}/${product.id}`, method: 'PUT' },
-          delete: { href: `${crudUrl}/${product.id}`, method: 'DELETE' },
-          getById: { href: `${baseUrl}/${product.id}`,method:"GET"},
-          softDelete: { href: `${baseUrl}/${product.id}`, method:"DELETE" },
-          updateStreet: { href: `${baseUrl}/${product.id}`, method:"PUT" },
-        },
+        ...product
       }));
-
+  
       res.status(200).json(productsWithLinks);
     } catch (error) {
-      console.error('Error fetching products by category:', error);
+      console.error('Error fetching products:', error);
       res.status(500).json({ message: "Internal server error" });
+    }
+  }
+
+static async getProductById(req: Request, res: Response): Promise<void> {
+    try {
+      const id: string = req.params.id;
+      const data = await ProductService.getProductById(id);
+
+      if (!data) {
+        res.status(404).json({ message: `Product with id ${id} not found` });
+        return;
+      }
+
+      res.status(200).json({
+        product: data
+      });
+    } catch (error) {
+      res.status(500).json({ message: (error as Error).message || 'Internal server error' });
+    }
+  }
+
+  static async softDeleteProduct(req: Request, res: Response): Promise<void> {
+    try {
+      const { id } = req.params;
+
+      const product = await ProductService.getProductById(id);
+
+      if (!product) {
+        res.status(404).json({ message: 'Product not found or has already been deleted.' });
+        return;
+      }
+
+      await ProductService.softDeleteProduct(id);
+      
+      res.status(200).json({
+        message: `Product with id ${id} has been soft deleted and moved to delete.json.`
+      });
+    } catch (error) {
+      console.error('Error soft deleting product:', error);
+      res.status(500).json({ message: (error as Error).message || 'Internal server error' });
     }
   }
 
@@ -69,13 +102,8 @@ export default class ProductController {
       }
 
       res.status(200).json({
+        message:`The manufacturer.address.street updated successfully.`,
         product: updatedProduct,
-        _links: {
-          update: { href: `${crudUrl}/${id}`, method: 'PUT' },
-          delete: { href: `${crudUrl}/${id}`, method: 'DELETE' },
-          getById: { href: `${baseUrl}/${id}`,method:"GET"},
-          softDelete: {href: `${baseUrl}/${id}`, method: 'DELETE', message: "Soft Delete"}
-        },
       });
     } catch (error) {
       console.error('Error updating product street:', error);
@@ -83,56 +111,66 @@ export default class ProductController {
     }
   }
 
-  static async getProductById(req: Request, res: Response): Promise<void> {
+
+  static async addProduct(req: Request, res: Response): Promise<void> {
     try {
-      const id: string = req.params.id;
-      const data = await ProductService.getProductById(id);
-      const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}`;
-      const crudUrl = `${req.protocol}://${req.get('host')}/api/crud`;
+        const allowedKeys: Array<keyof ProductModel> = [
+            'id', 'name', 'description', 'price', 'category', 'stock', 
+            'tags', 'rating', 'deleted', 'manufacturer'
+        ];
 
-      if (!data) {
-        res.status(404).json({ message: `Product with id ${id} not found` });
-        return;
-      }
+        const newData: Partial<ProductModel> = req.body;
+        const receivedKeys = Object.keys(newData) as Array<keyof ProductModel>;
+        const extraKeys = receivedKeys.filter(key => !allowedKeys.includes(key));
 
-      res.status(200).json({
-        product: data,
-        _links: {
-          update: { href: `${crudUrl}/${id}`, method: 'PUT' },
-          delete: { href: `${crudUrl}/${id}`, method: 'DELETE' },
-          updateStreet: {href: `${baseUrl}/${id}`, method: 'PUT' ,message:"Update Street Information"},
-          softDelete: {href: `${baseUrl}/${id}`, method: 'DELETE', message: "Soft Delete"}
-        },
-      });
+        if (extraKeys.length > 0) {
+             res.status(400).json({ 
+                message: `Unrecognized keys present: ${extraKeys.join(', ')}`
+            });
+            return;
+        }
+
+        const product: ProductModel = {
+            id: newData.id || '',
+            name: newData.name || '',
+            description: newData.description || '',
+            price: newData.price || 0,
+            category: newData.category || '',
+            stock: newData.stock || { available: 0, reserved: 0, location: '' },
+            tags: newData.tags || [],
+            rating: newData.rating || 0,
+            deleted: false,
+            manufacturer: newData.manufacturer || { address: { street: '' } }
+        };
+
+        const createdProduct = await ProductService.addProduct(product);
+
+        
+        res.status(201).json({
+            message: 'The new product was added successfully',
+            addedProduct: createdProduct
+        });
     } catch (error) {
-      res.status(500).json({ message: (error as Error).message || 'Internal server error' });
+        res.status(500).json({ message: (error as Error).message || 'Internal server error' });
     }
-  }
+}
+static async updateProduct(req: Request, res: Response): Promise<void> {
+  try {
+    const id: string = req.params.id;
+    const updatedData: Partial<ProductModel> = req.body;
+    const updatedProduct = await ProductService.updateProduct(id, updatedData);
 
-  static async softDeleteProduct(req: Request, res: Response): Promise<void> {
-    try {
-      const { id } = req.params;
-
-      const product = await ProductService.getProductById(id);
-
-      if (!product) {
-        res.status(404).json({ message: 'Product not found or has already been deleted.' });
-        return;
-      }
-
-      await ProductService.softDeleteProduct(id);
-      const baseUrl = `${req.protocol}://${req.get('host')}${req.baseUrl}`;
-      const crudUrl = `${req.protocol}://${req.get('host')}/api/crud`;
-      res.status(200).json({
-        message: `Product with id ${id} has been soft deleted and moved to delete.json.`,
-        _links: {
-          advancedProducts: { href: baseUrl },
-          crud: { href: crudUrl },
-        },
-      });
-    } catch (error) {
-      console.error('Error soft deleting product:', error);
-      res.status(500).json({ message: (error as Error).message || 'Internal server error' });
+    if (!updatedProduct) {
+      res.status(404).json({ message: `Product with id ${id} not found` });
+      return;
     }
+
+    res.status(200).json({
+      message: `The product with id ${id} was updated successfully`,
+      product: updatedProduct
+    });
+  } catch (error) {
+    res.status(500).json({ message: (error as Error).message || 'Internal server error' });
   }
+}
 }
