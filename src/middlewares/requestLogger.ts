@@ -3,6 +3,7 @@ import chalk from 'chalk';
 
 const requestLogger = (req: Request, res: Response, next: NextFunction): void => {
   const start = Date.now();
+  
   const fullUrl = `${req.protocol}://${req.get('host')}${req.originalUrl}`;
   
   console.log(chalk.italic(`[${new Date().toISOString()}] ${chalk.bold(req.method)} ${fullUrl}`));

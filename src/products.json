@@ -12,7 +12,10 @@
         "location": "Warehouse A"
       },
       "tags": [
-        "wireless","mouse","electronics","ergonomic"
+        "wireless",
+        "mouse",
+        "electronics",
+        "ergonomic"
       ],
       "rating": 4.5,
       "deleted": false
@@ -1996,6 +1999,31 @@
       ],
       "rating": 4.5,
       "deleted": false
+    },
+    {
+      "id": "101",
+      "name": "",
+      "description": "Next-gen gaming console with 1TB storage",
+      "price": 123,
+      "category": "Electronics",
+      "stock": {
+        "available": 2211,
+        "reserved": 2,
+        "location": "Warehouse N"
+      },
+      "tags": [
+        "gaming",
+        "console",
+        "electronics",
+        "1TB"
+      ],
+      "rating": 4.8,
+      "deleted": false,
+      "manufacturer": {
+        "address": {
+          "street": ""
+        }
+      }
     }
   ]
 }
