@@ -196,6 +196,7 @@ static async updateProductStreet(id: string, street: string): Promise<ProductMod
         products[productIndex] = updatedProduct;
 
         await this.writeProducts(products);
+        
         return updatedProduct;
     } catch (error) {
         if (error instanceof Error) {

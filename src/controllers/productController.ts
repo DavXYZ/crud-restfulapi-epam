@@ -3,6 +3,7 @@ import ProductService from '../services/productService';
 import ProductModel from '../models/productModel';
 
 export default class ProductController {
+  
   static async getProducts(req: Request, res: Response): Promise<void> {
     try {
       const category = req.query.category?.toString().toLowerCase().trim().replace(/\s+/g, "");

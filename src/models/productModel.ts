@@ -12,6 +12,7 @@ interface Stock {
   location: string;
 }
 
+
 export default interface ProductModel {
   id: string;
   name: string;

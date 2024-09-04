@@ -9,6 +9,7 @@ const requestLogger = (req: Request, res: Response, next: NextFunction): void =>
   console.log(chalk.italic(`[${new Date().toISOString()}] ${chalk.bold(req.method)} ${fullUrl}`));
 
   res.on('finish', () => {
+    
     const duration = Date.now() - start;
     const statusCode = res.statusCode;
 
