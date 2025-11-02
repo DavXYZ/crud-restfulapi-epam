@@ -4,6 +4,7 @@ import { validateProductInput } from '../middlewares/validation/validateProduct'
 import requestLogger from '../middlewares/requestLogger';
 
 const router = express.Router();
+
 router.use(requestLogger);
 
 router.get('/', ProductController.getProducts);
